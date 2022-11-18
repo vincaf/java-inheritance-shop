@@ -26,5 +26,10 @@ public class Television extends Prodotto{
 		this.smart = smart;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return super.toString()
+				+ "\nTelevision size: " + getSizeInches()
+				+ "''\nSmart tv: " + isSmart();
+	}
 }
