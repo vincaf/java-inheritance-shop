@@ -16,6 +16,12 @@ public class Main {
 		
 		Television tv1 = new Television(564, "Super Tv Crystal UHD", "Sonyx", 245, 10, 50, true);
 		System.out.println(tv1);
+		
+		System.out.println("\n----------\n");
+		
+		Headphones hdp1 = new Headphones(324, "JBN Tune 510", "JBN headphones", 30, 5, "Black", true);
+		System.out.println(hdp1);
+		
 	}
 
 }
