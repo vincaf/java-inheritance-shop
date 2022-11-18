@@ -27,5 +27,10 @@ public class Headphones extends Prodotto {
 		this.wireless = wireless;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return super.toString()
+				+ "\nColor: " + getColor()
+				+ "\nWireless: " + isWireless();
+	}
 }
