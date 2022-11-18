@@ -60,8 +60,8 @@ public class Prodotto {
 	
 	@Override
 	public String toString() {
-		return "\nCode: " + getName()
-				+ "Name: " + getCode()
+		return "Code: " + getCode()
+				+ "\nName: " + getName()
 				+ "\nBrand: " + getBrand()
 				+ "\nPrice: " + getPrice()
 				+ "€ \nPercentage iva: " + getIva()
