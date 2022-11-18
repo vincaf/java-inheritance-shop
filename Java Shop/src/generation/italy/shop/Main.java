@@ -11,6 +11,11 @@ public class Main {
 		
 		Smartphone smrt1 = new Smartphone(343, "Android Galaxy 78", "Samsium", 380, 20, 333, 128);
 		System.out.println(smrt1);
+		
+		System.out.println("\n----------\n");
+		
+		Television tv1 = new Television(564, "Super Tv Crystal UHD", "Sonyx", 245, 10, 50, true);
+		System.out.println(tv1);
 	}
 
 }
