@@ -9,4 +9,22 @@ public class Television extends Prodotto{
 		this.sizeInches = sizeInches;
 		this.smart = smart;
 	}
+
+	public int getSizeInches() {
+		return sizeInches;
+	}
+
+	public void setSizeInches(int sizeInches) {
+		this.sizeInches = sizeInches;
+	}
+
+	public boolean isSmart() {
+		return smart;
+	}
+
+	public void setSmart(boolean smart) {
+		this.smart = smart;
+	}
+	
+	
 }
