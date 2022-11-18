@@ -10,6 +10,22 @@ public class Headphones extends Prodotto {
 		this.color = color;
 		this.wireless = wireless;
 	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public boolean isWireless() {
+		return wireless;
+	}
+
+	public void setWireless(boolean wireless) {
+		this.wireless = wireless;
+	}
 	
 	
 }
