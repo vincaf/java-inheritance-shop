@@ -26,4 +26,10 @@ public class Smartphone extends Prodotto{
 		this.memoryStorage = memoryStorage;
 	}
 	
+	@Override
+	public String toString() {
+		return super.toString()
+				+ "\nIMEI code: " + getImeiCode()
+				+ "\nMemory storage: " + getMemoryStorage() + "gb";
+	}
 }
