@@ -9,4 +9,21 @@ public class Smartphone extends Prodotto{
 		this.imeiCode = imeiCode;
 		this.memoryStorage = memoryStorage;
 	}
+
+	public int getImeiCode() {
+		return imeiCode;
+	}
+
+	public void setImeiCode(int imeiCode) {
+		this.imeiCode = imeiCode;
+	}
+
+	public int getMemoryStorage() {
+		return memoryStorage;
+	}
+
+	public void setMemoryStorage(int memoryStorage) {
+		this.memoryStorage = memoryStorage;
+	}
+	
 }
